@@ -1,6 +1,6 @@
 <?php
 
-$discsJson = file_get_contents(__DIR__ . '/../db/discs.json');
+$discsJson = file_get_contents("../db/discs.json");
 
 echo $discsJson;
 

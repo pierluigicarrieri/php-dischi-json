@@ -18,16 +18,18 @@
 
                 <div class="row row-cols-3">
 
-                    <div class="col" v-for="disc in discs">
+                    <div class="col" v-for="(disc, i) in discs">
 
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">{{ disc.title }}</p>
-                            <p class="card-text"> {{ disc.author }} </p>
-                            <p class="card-text"> {{ disc.year }} </p>
+                            <p class="card-text"> {{ }} </p>
+                            <p class="card-text"> {{ }} </p>
+                            <p class="card-text"> {{ }} </p>
                         </div>
                     </div>
+
+                    <h1>AAAAAAA</h1>
 
                     </div>
 
