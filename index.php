@@ -23,9 +23,9 @@
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text"> {{ }} </p>
-                            <p class="card-text"> {{ }} </p>
-                            <p class="card-text"> {{ }} </p>
+                            <p class="card-text"> {{ disc.title }} </p>
+                            <p class="card-text"> {{ disc.author }} </p>
+                            <p class="card-text"> {{ disc.year }} </p>
                         </div>
                     </div>
 

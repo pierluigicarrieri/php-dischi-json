@@ -16,9 +16,13 @@ Vue.createApp({
 
     mounted() {
 
-        axios.get("api/dischi.php").then(function (response) {
+        axios.get("api/dischi.php").then( (response) => {
 
+            console.log(response.data)
+            
             this.discs = response.data;
+
+            console.log(this.discs)
 
         })
     }
