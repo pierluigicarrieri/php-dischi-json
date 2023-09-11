@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "The Infamous",
+        "author": "Mobb Deep",
+        "year": 1995,
+        "image": ""
+    },
+    {
+        "id": 2,
+        "title": "The Low End Theory",
+        "author": "A Tribe Called Quest",
+        "year": 1991,
+        "image": ""
+    },
+    {
+        "id": 3,
+        "title": "It's Dark and Hell Is Hot",
+        "author": "DMX",
+        "year": 1998,
+        "image": ""
+    },
+    {
+        "id": 4,
+        "title": "Dah Shinin'",
+        "author": "Smif-N-Wessun",
+        "year": 1995,
+        "image": ""
+    },
+    {
+        "id": 5,
+        "title": "Illmatic",
+        "author": "Nas",
+        "year": 1994,
+        "image": ""
+    },
+    {
+        "id": 6,
+        "title": "Doggystyle",
+        "author": "Snoop Dogg",
+        "year": 1993,
+        "image": ""
+    }
+]
