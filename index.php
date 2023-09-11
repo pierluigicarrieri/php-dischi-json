@@ -12,24 +12,22 @@
 
     <div id="app">
 
-        <main class="vh-100 bg-warning">
+        <main class="bg-warning">
 
             <div class="container">
 
-                <div class="row row-cols-3">
+                <div class="row row-cols-3 g-4">
 
                     <div class="col" v-for="(disc, i) in discs">
 
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card h-100 text-center">
+                        <img :src="`./images/${disc.image}`" class="card-img-top" :alt="`${disc.image}`">
                         <div class="card-body">
-                            <p class="card-text"> {{ disc.title }} </p>
-                            <p class="card-text"> {{ disc.author }} </p>
-                            <p class="card-text"> {{ disc.year }} </p>
+                            <h3 class="card-text"> {{ disc.title }} </h3>
+                            <h5 class="card-text"> {{ disc.author }} </h5>
+                            <h6 class="card-text"> {{ disc.year }} </h6>
                         </div>
                     </div>
-
-                    <h1>AAAAAAA</h1>
 
                     </div>
 
