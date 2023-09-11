@@ -12,7 +12,30 @@
 
     <div id="app">
 
+        <main class="vh-100 bg-warning">
 
+            <div class="container">
+
+                <div class="row row-cols-3">
+
+                    <div class="col" v-for="disc in discs">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">{{ disc.title }}</p>
+                            <p class="card-text"> {{ disc.author }} </p>
+                            <p class="card-text"> {{ disc.year }} </p>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
 
     </div>
 
